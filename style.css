@@ -13,11 +13,13 @@ body {
     background-image: url(https://i.ytimg.com/vi/uQEBXWMBHhk/maxresdefault.jpg);
     background-size: cover;
     background-repeat: repeat;
-
+    font-family: "Poppins", sans-serif;
+    color: white;
 }
 
 header{
     width: 100%;
+    font-size: 10;
 }
 
 .navbar{
@@ -68,32 +70,34 @@ header{
     width: 30px;
 }
 
-.bvn{
+.welcome{
     position: relative;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     top: 100px;
+    font-size: 23px;
 }
 
-.dscp{
+.desc{
     padding-top: 10px;
+    font-size: 17px;
     text-align: center;
 }
 
-.ex{
+.exemple-produit{
     position: relative;
     display: flex;
     justify-content: flex-end;
-    top: 200px;
     right: 5vw;
+    
 }
 
 .discordex{
     max-width: 60%;
     height: auto;
-    border-radius: 15%;
+    border-radius: 15px;
     transition: all 0.2s;
 
 }
@@ -102,9 +106,9 @@ header{
     box-shadow:8px 8px 10px 0 rgba(255, 255, 255, 0.573);
 }
 
-.descdis{
+.descdiscord{
     color: white;
-    font-size: 6vw;
+    font-size: 7vw;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -112,11 +116,11 @@ header{
     padding-right: 10px;
 }
 
-.descdis.gras{
+.descdiscord.gras{
     font-weight: bold;
 }
 
-.disc{
+.discord{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -127,6 +131,58 @@ header{
     display: none;
 
 }
+
+footer{
+    background-color: gray;
+    bottom: 0;
+    padding-left: 100%;
+
+}
+main{
+    position: relative;
+    top: 200px;
+}
+
+.description-content{
+    position: relative;
+    text-align: center;
+    top : 60px;
+    color : white;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-nay{
+    display: none;
+}
+
+.aboutme{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.school{
+    font-size: 1.6vw
+}
+
+.esaip{
+    position: relative;
+    width: 30vw;
+    right: 50px;
+}
+
+.Bachelor{
+    color: white;
+    font-weight: bold;
+}
+
+
+
 
 @media screen and (max-width: 900px){
     .navbar .logo{
@@ -141,6 +197,7 @@ header{
     .navbar .menu-ham{
         display: block;
         z-index: 2;
+        cursor: pointer;
     }
 
     .navbar .nav-links{
@@ -159,7 +216,6 @@ header{
 
     }
     .nav-links.mobile-menu{
-
         margin-left: 0;
     }
     
@@ -178,8 +234,23 @@ header{
         margin-left: 0%;
     }
 
-    .bvn{
+    .welcome{
         z-index: 1;
     }
 
+    .description-content{
+        font-size: 2vw;
+    }
+
+    .logo-nay{
+        position: relative;
+        display: block;
+        max-width: 50%;
+        top: 20px;
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+        
+    }
+
+
+    
 }
