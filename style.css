@@ -181,6 +181,12 @@ main{
     font-weight: bold;
 }
 
+.configpc{
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
 
 
 
