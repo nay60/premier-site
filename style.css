@@ -239,10 +239,11 @@ footer ul a:hover{
     padding-top: 10px;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) and (prefers-color-scheme: dark){
     .body{
         background-color: black;
-    }
+    } 
+
     .navbar .logo{
         position: absolute;
         top: 20px;
