@@ -16,9 +16,8 @@ buton.addEventListener("click", function(){
             prenom : event.target.querySelector("[name=prenom]").value,
             mail : event.target.querySelector("[name=mail]").value,
         };
-        
-
-
+        const donneinfo = JSON.stringify(info);
+        localStorage.setItem('donné', donneinfo);
     });
 })
     
