@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
     
 }
 
@@ -253,6 +254,47 @@ footer ul a:hover{
 .partcv2 .itemcv{
     padding-bottom: 78px;
 }
+
+.who p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.who ul li a{
+    color: white;
+}
+
+.who ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.who ul li{
+    padding-right: 30px;
+}
+
+.who ul li:hover{
+    opacity: 0.8;
+}
+
+#entreprise{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#entreprise img{
+    border-radius: 15px;
+    width: 40vw;
+}
+
+#entreprise p{
+    text-align: center;
+    margin: 30px;
+}
+
 
 @media screen and (max-width: 700px){
 
