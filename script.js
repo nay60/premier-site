@@ -6,8 +6,9 @@ menuHam.addEventListener("click", ()=>{
     
 })
 
+const infopeople = []
 const buton = document.querySelector(".submit")
-buton.addEventListener("click", function(){
+
     const form = document.querySelector(".form")
     form.addEventListener("submit", function(event){
         event.preventDefault();
@@ -16,8 +17,9 @@ buton.addEventListener("click", function(){
             prenom : event.target.querySelector("[name=prenom]").value,
             mail : event.target.querySelector("[name=mail]").value,
         };
-        const donneinfo = JSON.stringify(info);
-        localStorage.setItem('donné', donneinfo);
+        console.log(info);
+        infopeople.push(info);
+        console.log(infopeople);
+        const donneinfo = JSON.stringify(infopeople);
+        localStorage.setItem('donne', donneinfo);
     });
-})
-    
