@@ -8,6 +8,8 @@
         <meta name="author" content="John Doe">
         <title>Discord</title>
         <link rel="stylesheet" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        
 
         
     </head>
@@ -74,13 +76,22 @@
                 <p>Afin d'avoir recours à mes services pour la création d'un discord</p>
                 <p>Je vous contacterais très prochainement une fois le formulaire remplis</p>
                 <form class="formul">
-                    Votre nom :
-                    <input type="text" name="nom"><br> 
-                    Votre prenom :
-                    <input type="text" name="prenom"><br>
-                    Votre adresse mail :
-                    <input type="text" name="mail"><br>
-                    <button class="submit">Envoyer</button>
+                    <div>
+                        <label for="forname">Votre nom :</label>
+                        <input type="text" name="nom"> 
+                    </div> 
+                    <div>
+                        <label for="forprenom">Votre prenom :</label>
+                        <input type="text" name="prenom">
+                    </div>
+                    <div>
+                        <label for="formail">Votre adresse mail :</label>
+                        <input type="email" name="mail">
+                    </div>
+                    <div>
+                        <button>Envoyer</button>
+                    </div>
+                    
                 </form>
             </section>
         </main>
@@ -109,6 +120,7 @@
                 <p>Vous etes sur le site me présentant et proposant mes services !</p>
             <p class="copyright">Nay © 2024</p>
         </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     </body>
     <script type="module" src="script.js"></script>
 </html>
