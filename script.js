@@ -1,4 +1,3 @@
-AOS.init(); 
 
 const menuHam = document.querySelector(".menu-ham")
 const navlink = document.querySelector(".nav-links")
