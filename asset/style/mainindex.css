@@ -1,0 +1,97 @@
+.exemple-produit{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    right: 5vw;
+    
+}
+
+.discord{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.exemple-produit a{
+    max-width: 60%;
+}
+.discordex{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: all 0.2s;
+
+}
+
+.discordex:hover{
+    box-shadow:8px 8px 10px 0 rgba(255, 255, 255, 0.573);
+}
+
+.description-content{
+    position: relative;
+    text-align: center;
+    padding-top : 60px;
+    color : white;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-nay{
+    display: none;
+}
+
+.descdiscord{
+    color: white;
+    font-size: 7vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.descdiscord.gras{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px){
+    .exemple-produit {
+        flex-direction: column;
+        justify-content: normal;
+        align-items: center;
+        right: 0;
+
+    }
+
+    .discord{
+        align-items: center;
+        
+    }
+
+    .exemple-produit a{
+        max-width: 80%;
+    }
+
+    .discordex{
+        max-width: 100%;
+    }
+
+    .descdiscord{
+        font-size: 10vw;
+        padding-right: 0;
+       
+    }
+
+    .logo-nay{
+        position: relative;
+        display: block;
+        max-width: 50%;
+        
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+        padding-top: 20px;
+    }
+}
+

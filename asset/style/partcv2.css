@@ -1,0 +1,15 @@
+.partcv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.partcv2 .itemcv{
+    padding-bottom: 105.8px;
+}
+
+@media screen and (max-width: 900px){   
+    .partcv2 .itemcv{
+        padding-bottom: 30px;
+    }
+}

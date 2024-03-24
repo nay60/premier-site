@@ -1,0 +1,26 @@
+.itemwho{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemwho img{
+    border-radius: 15px;
+    width: 40vw;
+}
+
+.itemwho p{
+    text-align: center;
+    margin: 30px;
+}
+
+.itemwho p span{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px){   
+    .itemwho img{
+        width: 80vw;
+    }
+}

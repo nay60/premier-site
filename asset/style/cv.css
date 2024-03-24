@@ -1,0 +1,19 @@
+.cv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.cv ul{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 900px){   
+    .cv{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
