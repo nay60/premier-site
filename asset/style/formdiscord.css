@@ -1,16 +1,17 @@
 .form{
-    display: flex;
     text-align: center;
-    flex-direction: column;
     padding-top: 30px;
 }
 
+
 .formul{
+    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding-top: 40px;
 }
+
 
 .formul div{
     display: flex;
@@ -21,3 +22,5 @@
 @media screen and (max-width: 900px){   
 
 }
+
+

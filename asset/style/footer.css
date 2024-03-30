@@ -46,3 +46,9 @@ footer ul a:hover{
     text-align: center;
     padding-top: 10px;
 }
+
+@media screen and (max-width: 900px){   
+    footer{
+        padding-top : 20px;
+    }
+}

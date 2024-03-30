@@ -6,7 +6,7 @@
 
 .qui.size{
     padding-top: 0;
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
 .aboutme{
@@ -24,6 +24,9 @@
     position: relative;
     width: 30vw;
     right: 50px;
+    animation: bounce;
+    animation-duration: 2s;
+
 }
 
 .Bachelor{
